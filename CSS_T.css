@@ -201,7 +201,10 @@ figcaption {
 }
 
 .lis {
-    background-image: url('Fundo\ colorido.jpg');
+    background-image: url('Fundo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     color: black;
     list-style-type: none;
     border: 2px solid black;
