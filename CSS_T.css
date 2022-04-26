@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+body {
+    font-family: cursive;
+    background-image: url('céu2.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+button {
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-family: cursive;
+}
+
+.te {
+    border-radius: 10px;
+    border: 2px solid black;
+    float: left;
+}
+
+nav {
+    text-align: right;
+}
+
+.fundo_1 {
+    padding: 2%;
+} 
+
+h1 {
+    padding-left: 46%;
+}
+
+button:hover {
+    color: white;
+    background-image: url('logo.gif');
+}
+
+h2, h3, footer {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.con {
+    text-align: center
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    clear: both;
+}
+
+figure {
+    width: 90%;
+    height: 90%;
+    padding-right: 4%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-image: url('Fundo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.gif1 {
+    margin-right: 5%;
+}
+
+figcaption {
+    text-align: center;
+    padding-left: 10%;
+    font-family: cursive;
+}
+
+.img {
+    margin-right: 2%;
+    border: 2px solid black;
+    border-radius: 10px;
+    float: left;
+}
+
+.gif {
+    margin-top: 5%;
+    margin-left: 5%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.gif1 {
+    background-color: black;
+    padding-left: 10%;
+    padding-right: 10%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 8%;
+}
+
+.text {
+    padding: 2%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 2%;
+    background-image: url('Fundo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*Fim página 1*/
+
+.nome {
+    font-family: cursive;
+}
+
+.tip, footer {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.texto {
+    align-self: flex-end;
+    text-align: center;
+}
+
+.fun {
+    margin-left: 3%;
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    margin-top: 2%;
+    margin: 2%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 3%;
+    background-image: url('Fundo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.img {
+    margin-right: 2%;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+
+/*Fim página 2*/
+
+.dados {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1%;
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: space-around;
+    background-image: url('Fundo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+   justify-content: flex-start;
+   justify-content: space-evenly;
+}
+
+.cad, footer {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.tab {
+    float: left;
+    width: 30%;
+    padding: 8px;
+    margin-left: 2%;
+    
+    box-sizing:border-box;
+}
+
+.nome {
+    width: 90%;
+    height: 90%;
+    margin-top: 5%;
+    margin-left: 1%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.lis {
+    background-image: url('Fundo\ colorido.jpg');
+    color: black;
+    list-style-type: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2%;
+    text-align: center;
+    box-sizing:border-box;
+}
+
+li {
+    padding: 20px;
+    border-bottom: 20pxx solid #eee;
+}
+
+.foot {
+    clear: both;
+}

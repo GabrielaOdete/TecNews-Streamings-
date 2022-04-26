@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS_T.css">
+    <title>TecNews</title>
+</head>
+<body>
+   
+    <header class="fundo_1">
+
+        <img class="te" src="logo.gif" alt="logo" width="15%" height="15%">
+
+        <h1>TecNews</h1>
+ 
+        <nav>
+
+            <a href="Trabalho (home).html"><button>Home</button></a>
+            <a href="Trabalho (Curiosidades).html"><button>Curiosidades</button></a>
+            <a href="Trabalho (Cadastro).html"><button>Cadastre-se!</button></a>
+            <br />
+    
+        </nav>
+
+    </header>
+
+    <h2 class="cad">Cadastro:</h2>
+
+    <section class="dados">
+
+        <form>
+            <label>E-mail</label><br />
+            <input type="text" placeholder="Escreva o seu E-mail"><br /><br />
+
+            <label>Senha</label><br />
+            <input type="text" placeholder="Escreva uma senha">
+            <br /><br />
+        
+            <label>Nome Completo</label><br />
+            <input type="text" placeholder="Escreva o seu Nome"><br /><br />
+        
+            <label>Idade</label><br />
+            <input list="Idade" name="Idade" placeholder="Selecione sua idade"><br /><br />
+                <datalist id="Idade">
+                  <option value="Entre 18 e 30"></option>
+                  <option value="Entre 30 e 50"></option>
+                  <option value="Entre 50 e 70"></option>
+                  <option value="Entre 70 e 90"></option>
+                  <option value="Acima de 90 anos"></option>  
+                </datalist>
+        </form>
+
+        <form>
+            <label>Data de Nascimento</label><br />
+            <input type="text" placeholder="Digite sua data:00/00/00"><br /><br />
+
+            <label>Gênero</label><br />
+            <input list="genero" name="genero" placeholder="Selecione seu gênero"><br /><br />
+                <datalist id="genero">
+                    <option value="Feminino"></option>
+                    <option value="Masculino"></option>
+                    <option value="Outro"></option>
+                    <option value="Não quero informar"></option>
+                </datalist>
+
+            <label>Cidade</label><br />
+            <input list="cidade" name="cidade" placeholder="Selecione sua cidade"><br /><br />
+                <datalist id="cidade">
+                    <option value="Joinville"></option>
+                    <option value="São Paulo"></option>
+                    <option value="Belo Horizonte"></option>
+                    <option value="Florianópolis"></option>
+                    <option value="Outra"></option>
+                </datalist>
+
+                <label>CPF</label><br />
+                <input type="text" placeholder="Escreva o seu CPF"><br /><br />
+        
+        </form>
+    </section>
+
+    <h2 class="cad">Escolha um plano e uma Streaming:</h2>
+
+    <div class="tab">
+        <ul class="lis">
+            
+            <img class="nome" src="Disney2.jpg" alt="Disney">
+
+            <li>MENSAL: R$ 27,90</li>
+            <li>ANUAL: R$ 279,90</li>
+            <li>Combo Disney+, Star+ e Globo Play</li>
+            <li>Acesso Ilimitado</li>
+            <li><button>CADASTRE-SE</button></li>
+        </ul>
+    </div>
+
+    <div class="tab">
+        <ul class="lis">
+
+            <img class="nome" src="Netflix 2.jpg" alt="Netflix">
+
+            <li>PLANO BÁSICO: R$ 25,90</li>
+            <li>PLANO PADRÃO: R$ 39,90</li>
+            <li>PLANO PREMIUM: R$ 55,90</li>
+            <li>Acesso Ilimitado a todos os filmes, séries e animes</li>
+            <li><button>CADASTRE-SE</button></li>
+        </ul>
+    </div>
+
+    <div class="tab">
+        <ul class="lis">
+            
+            <img class="nome" src="crunchyroll-premium.webp" alt="Funimantion e Crunchyroll">
+
+            <li>GRATUITO</li>
+            <li>Acesso ilumitado com propagandas</li>
+
+            <li>PLANO FAN: R$ 25,00 (mensal)</li>
+            <li>Acesso ilimitado sem restrições</li>
+            
+            <li>PLANO MEGA FAN: R$ 32,00 (mensal)</li> 
+            <li>Acesso ilimitado sem restrições e com adição de função download dos episódios</li>
+            <li><button>CADASTRE-SE</button></li>
+            
+        </ul>
+    </div><br />
+
+    <footer class="foot">
+
+        <a href="#" class="enviar"><button>Enviar</button></a><br /><br />
+        
+        Gabriela Odete de Oliveira / Instituto de Oportunidade Social / Programação de WEB &copy;
+    </footer>
+
+</body>
+</html>
