@@ -190,6 +190,13 @@ figcaption {
     box-sizing:border-box;
 }
 
+.tab:hover {
+    background-color: rgba(0, 217, 255, 0.582);
+    border-radius: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
 .nome {
     width: 90%;
     height: 90%;
